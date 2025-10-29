@@ -11,6 +11,15 @@
   "license": "ISC",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.16",
+    "sass": "^1.93.2",
     "tailwindcss": "^4.1.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pguignant-ux/instradog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pguignant-ux/instradog/issues"
+  },
+  "homepage": "https://github.com/pguignant-ux/instradog#readme"
 }

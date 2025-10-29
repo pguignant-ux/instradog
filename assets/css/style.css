@@ -8,21 +8,13 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-gray-200: oklch(92.8% 0.006 264.531);
-    --color-gray-300: oklch(87.2% 0.01 258.338);
-    --color-gray-400: oklch(70.7% 0.022 261.325);
-    --color-gray-500: oklch(55.1% 0.027 264.364);
-    --color-gray-800: oklch(27.8% 0.033 256.848);
     --spacing: 0.25rem;
-    --container-md: 28rem;
-    --container-xl: 36rem;
-    --container-2xl: 42rem;
+    --container-3xl: 48rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
     --font-weight-extrabold: 800;
-    --radius-sm: 0.25rem;
-    --radius-xl: 0.75rem;
     --radius-4xl: 2rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
@@ -186,17 +178,26 @@
   .table {
     display: table;
   }
-  .w-2xl {
-    width: var(--container-2xl);
+  .h-5 {
+    height: calc(var(--spacing) * 5);
+  }
+  .h-7 {
+    height: calc(var(--spacing) * 7);
+  }
+  .h-8 {
+    height: calc(var(--spacing) * 8);
+  }
+  .h-9 {
+    height: calc(var(--spacing) * 9);
+  }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
+  .w-3xl {
+    width: var(--container-3xl);
   }
   .w-8 {
     width: calc(var(--spacing) * 8);
-  }
-  .w-md {
-    width: var(--container-md);
-  }
-  .w-xl {
-    width: var(--container-xl);
   }
   .border-collapse {
     border-collapse: collapse;
@@ -213,26 +214,12 @@
   .scroll-auto {
     scroll-behavior: auto;
   }
-  .rounded-4xl {
-    border-radius: var(--radius-4xl);
-  }
   .rounded-full {
     border-radius: calc(infinity * 1px);
-  }
-  .rounded-ss-full {
-    border-start-start-radius: calc(infinity * 1px);
   }
   .rounded-b-4xl {
     border-bottom-right-radius: var(--radius-4xl);
     border-bottom-left-radius: var(--radius-4xl);
-  }
-  .rounded-b-sm {
-    border-bottom-right-radius: var(--radius-sm);
-    border-bottom-left-radius: var(--radius-sm);
-  }
-  .rounded-b-xl {
-    border-bottom-right-radius: var(--radius-xl);
-    border-bottom-left-radius: var(--radius-xl);
   }
   .rounded-bl-4xl {
     border-bottom-left-radius: var(--radius-4xl);
